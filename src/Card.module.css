@@ -1,0 +1,131 @@
+/* styles/Card.module.css */
+
+/*
+.card {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 80px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+  }
+  
+  .card .suit {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .card .value {
+    font-size: 30px;
+    text-align: center;
+  }
+*/
+
+.card {
+  width: 69px;
+  height: 100px;
+  background-size: cover;
+  background-position: center;
+}
+
+.value {
+
+}
+
+.suit {
+
+}
+
+/* Example card styles */
+.card.sword-1 {
+  background-image: url('https://th.bing.com/th/id/OIG.k6UJoZ2mZkjn7MqapoUJ?pid=ImgGn');
+}
+
+.card.gold-1 {
+  background-image: url('https://th.bing.com/th/id/OIG.k6UJoZ2mZkjn7MqapoUJ?pid=ImgGn');
+}
+
+.card.will-1 {
+  background-image: url('https://th.bing.com/th/id/OIG.k6UJoZ2mZkjn7MqapoUJ?pid=ImgGn');
+}
+
+.card.sword-2 {
+    background-image: url('https://th.bing.com/th/id/OIG.woI4vk2GoS1dGjESbvTe?pid=ImgGn');
+  }
+  
+  .card.gold-2 {
+    background-image: url('https://th.bing.com/th/id/OIG.woI4vk2GoS1dGjESbvTe?pid=ImgGn');
+  }
+  
+  .card.will-2 {
+    background-image: url('https://th.bing.com/th/id/OIG.woI4vk2GoS1dGjESbvTe?pid=ImgGn');
+  }
+
+  .card.sword-3 {
+    background-image: url('https://th.bing.com/th/id/OIG.NhLKiKn5HcX_QBNODmjq?pid=ImgGn');
+  }
+  
+  .card.gold-3 {
+    background-image: url('https://th.bing.com/th/id/OIG.NhLKiKn5HcX_QBNODmjq?pid=ImgGn');
+  }
+  
+  .card.will-3 {
+    background-image: url('https://th.bing.com/th/id/OIG.NhLKiKn5HcX_QBNODmjq?pid=ImgGn');
+  }
+
+  .card.sword-4 {
+    background-image: url('https://th.bing.com/th/id/OIG.miA9PZhZDycHs4UF1E5V?pid=ImgGn');
+  }
+  
+  .card.gold-4 {
+    background-image: url('https://th.bing.com/th/id/OIG.miA9PZhZDycHs4UF1E5V?pid=ImgGn');
+  }
+  
+  .card.will-4 {
+    background-image: url('https://th.bing.com/th/id/OIG.miA9PZhZDycHs4UF1E5V?pid=ImgGn');
+  }
+
+  .card.sword-5 {
+    background-image: url('https://th.bing.com/th/id/OIG.JjQl.TXot0IQFoIsExM_?pid=ImgGn');
+  }
+  
+  .card.gold-5 {
+    background-image: url('https://th.bing.com/th/id/OIG.JjQl.TXot0IQFoIsExM_?pid=ImgGn');
+  }
+  
+  .card.will-5 {
+    background-image: url('https://th.bing.com/th/id/OIG.JjQl.TXot0IQFoIsExM_?pid=ImgGn');
+  }
+
+  .card.sword-6 {
+    background-image: url('https://th.bing.com/th/id/OIG._.8i8Mn7_A9HUSntxUrs?pid=ImgGn');
+  }
+  
+  .card.gold-6 {
+    background-image: url('https://th.bing.com/th/id/OIG._.8i8Mn7_A9HUSntxUrs?pid=ImgGn');
+  }
+  
+  .card.will-6 {
+    background-image: url('https://th.bing.com/th/id/OIG._.8i8Mn7_A9HUSntxUrs?pid=ImgGn');
+  }
+
+  .card.sword-7 {
+    background-image: url('https://th.bing.com/th/id/OIG.PmcOUZzeGFfyvUPg98J0?pid=ImgGn');
+  }
+  
+  .card.gold-7 {
+    background-image: url('https://th.bing.com/th/id/OIG.PmcOUZzeGFfyvUPg98J0?pid=ImgGn');
+  }
+  
+  .card.will-7 {
+    background-image: url('https://th.bing.com/th/id/OIG.PmcOUZzeGFfyvUPg98J0?pid=ImgGn');
+  }
+
+.card.knight-0 {
+    background-image: url('./images/69wx100hknight.png');
+  }
+
+/* ... add styles for the other suits and values */

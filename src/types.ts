@@ -1,8 +1,10 @@
 export enum Suit {
-    Sword,
-    Will,
-    Gold,
-  }
+  Sword,
+  Will,
+  Gold,
+  Knight,
+}
+
   
   export interface CardData {
     value: number;
@@ -15,5 +17,7 @@ export enum Suit {
     bet: number;
     balance: number;
     roundOver: boolean;
+    status: string;
+    currentMultiplier: number;
   }
   
