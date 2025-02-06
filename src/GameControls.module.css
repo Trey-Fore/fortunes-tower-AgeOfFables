@@ -16,6 +16,10 @@
     display: flex;
     align-items: center;
   }
+
+  input{
+    width: 100px;
+  }
   
   .gameState {
     margin-top: 1rem;

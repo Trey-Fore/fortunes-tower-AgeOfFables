@@ -7,37 +7,36 @@
     transform: translateY(calc(-50% + 2rem * var(--row-index)));  
 }
   
-  
   .row:first-child {
-    top: 0;
+    top: 1rem;
   }
   
   .row:nth-child(2) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .row:nth-child(3) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .row:nth-child(4) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .row:nth-child(5) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .row:nth-child(6) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .row:nth-child(7) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .row:nth-child(8) {
-    top: 0rem;
+    top: 1rem;
   }
   
   .card {
@@ -81,5 +80,35 @@
   
   .card:nth-child(9) {
     left: 24rem;
+  }
+  
+  .slideIn {
+    animation: slideIn 1s ease-out forwards;
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .slideUp {
+    animation: slideUp 1s ease-out forwards;
+  }
+  
+  @keyframes slideUp {
+    from {
+      transform: translateY(0);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(-100%);
+      opacity: 0;
+    }
   }
   
